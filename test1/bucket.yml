@@ -3,6 +3,8 @@ flows:
     author: anonymous, created: 1696476440512, flowName: asds, flowDesc: sadsad}
   fb81970f-dd41-4294-893f-2006e39e5a72: {ver: 1, file: test12.snapshot, comments: '',
     author: anonymous, created: 1696477005957, flowName: test12, flowDesc: ''}
+  54cc3432-a0e7-46c3-bc4f-c08489309077: {ver: 1, file: sadsad.snapshot, comments: '',
+    author: anonymous, created: 1696479401518, flowName: sadsad, flowDesc: ''}
   e36dd1f5-9d6f-489d-a00d-f0ad2568d3ab: {ver: 1, file: ws.snapshot, comments: '',
     author: anonymous, created: 1696479256426, flowName: ws, flowDesc: ''}
 layoutVer: 1
