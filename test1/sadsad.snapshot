@@ -32,6 +32,70 @@
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.19.1.0-eep-811"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "d2befe39-7758-3931-915c-2a54937341bf",
+          "identifier" : "6264264f-e296-311c-9f38-65ccf3f38778",
+          "instanceIdentifier" : "fe17ad1b-018a-1000-e919-6e6add3580fc",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "CompressContent",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 376.0,
+            "y" : 72.0
+          },
+          "properties" : {
+            "Compression Format" : "use mime.type attribute",
+            "Mode" : "compress",
+            "Compression Level" : "1",
+            "Update Filename" : "false"
+          },
+          "propertyDescriptors" : {
+            "Compression Format" : {
+              "displayName" : "Compression Format",
+              "identifiesControllerService" : false,
+              "name" : "Compression Format",
+              "sensitive" : false
+            },
+            "Mode" : {
+              "displayName" : "Mode",
+              "identifiesControllerService" : false,
+              "name" : "Mode",
+              "sensitive" : false
+            },
+            "Compression Level" : {
+              "displayName" : "Compression Level",
+              "identifiesControllerService" : false,
+              "name" : "Compression Level",
+              "sensitive" : false
+            },
+            "Update Filename" : {
+              "displayName" : "Update Filename",
+              "identifiesControllerService" : false,
+              "name" : "Update Filename",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.CompressContent",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
             "artifact" : "nifi-cybersecurity-nar",
             "group" : "org.apache.nifi",
             "version" : "1.19.1.0-eep-811"
