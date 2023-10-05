@@ -1,6 +1,4 @@
 flows:
-  e8fcdb3a-3776-4f18-9c62-cbc385aedccf: {ver: 1, file: asds.snapshot, comments: asdasd,
-    author: anonymous, created: 1696476440512, flowName: asds, flowDesc: sadsad}
   fb81970f-dd41-4294-893f-2006e39e5a72: {ver: 1, file: test12.snapshot, comments: '',
     author: anonymous, created: 1696477005957, flowName: test12, flowDesc: ''}
   e36dd1f5-9d6f-489d-a00d-f0ad2568d3ab: {ver: 1, file: ws.snapshot, comments: '',
